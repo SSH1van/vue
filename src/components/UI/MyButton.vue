@@ -1,19 +1,17 @@
 <template>
-    <button>
-        Создать
+    <button class="btn">
+        <slot></slot>
     </button>
 </template>
     
 <script>
 export default {
-
+    name: 'my-button'
 }
 </script>
     
 <style scoped>
 .btn {
-    align-self: flex-end;
-    margin-top: 10px;
     padding: 10px 15px;
     border: 1px solid teal;
 
