@@ -10,3 +10,4 @@ components.forEach(component => {
 
 
 app.mount('#app');
+
