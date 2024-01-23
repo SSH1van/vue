@@ -1,6 +1,8 @@
 # vue
 Set-ExecutionPolicy RemoteSigned -Scope Process
 
+npm install - to prepare for the launch of a newly downloaded project
+
 ## Project setup
 ```
 npm install
